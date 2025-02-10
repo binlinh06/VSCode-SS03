@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://www.myserver.com" method="post">
+        <div>
+            <label for="danhgia">Đánh giá(1-5):</label>
+            <input type="number" name="danhgia" id="danhgia" min="1" max="5" step="1">
+        </div>
+        <div>
+            <label for="binluan">Bình luận:</label>
+            <textarea name="noidung" id="noidung" cols="12" rows="3"></textarea>
+        </div>
+        <input type="submit" value="Gửi feedback">
+    </form>
+</body>
+</html>
